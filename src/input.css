@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.capsule {
+  @apply border rounded-xl bg-emerald-300 px-3 py-2 border-none;
+}
+.exp {
+  @apply pb-5 list-none flex flex-wrap space-x-2 gap-4 justify-center items-center;
+}
+li {
+  @apply border rounded-full px-3 py-2;
+}
